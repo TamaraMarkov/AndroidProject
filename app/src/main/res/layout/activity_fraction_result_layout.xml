@@ -1,0 +1,174 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center_horizontal"
+    android:orientation="vertical"
+    android:textAlignment="center"
+    tools:context=".SimpleNumbersExerciseActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:layout_weight="2"
+            android:text="Your answer: "
+            android:textSize="24sp" />
+        <TextView
+            android:id="@+id/timeIsOverAnswer"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:layout_weight="2"
+            android:text="You didnt answer the question"
+            android:visibility="gone"
+            android:textSize="24sp" />
+
+
+        <LinearLayout
+            android:id="@+id/answerLayout"
+            android:layout_width="0dp"
+            android:layout_weight="2"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:gravity="center"
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/fractionYourAnswerIntID"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginEnd="2dp"
+                android:background="#D3D3D3"
+                android:minEms="1"
+                android:paddingEnd="3dp"
+                android:textSize="@dimen/fraction_int_size"
+                android:textStyle="bold"
+                tools:text="1" />
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <TextView
+                    android:id="@+id/fractionYourAnswerNominatorID"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+
+                    android:layout_marginBottom="2dp"
+                    android:background="#D3D3D3"
+                    android:minEms="2"
+                    android:textSize="@dimen/fraction_nom_size"
+                    android:textStyle="bold"
+                    tools:text="2" />
+
+                <View
+                    android:layout_width="@dimen/fraction_separator_width"
+                    android:layout_height="@dimen/fraction_separator_height"
+                    android:layout_gravity="center"
+                    android:background="@android:color/black" />
+
+                <TextView
+                    android:id="@+id/fractionYourAnswerDenominatorID"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+
+                    android:layout_marginTop="2dp"
+                    android:background="#D3D3D3"
+                    android:minEms="2"
+                    android:textSize="@dimen/fraction_nom_size"
+                    android:textStyle="bold"
+                    tools:text="3" />
+            </LinearLayout>
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:layout_weight="2"
+            android:text="Correct answer: "
+            android:textSize="24sp" />
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_weight="2"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:gravity="center"
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/fractionCorrectAnswerIntID"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginEnd="2dp"
+                android:background="#D3D3D3"
+                android:minEms="1"
+                android:paddingEnd="3dp"
+                android:textSize="@dimen/fraction_int_size"
+                android:textStyle="bold"
+                tools:text="1" />
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <TextView
+                    android:id="@+id/fractionCorrectAnswerNominatorID"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+
+                    android:layout_marginBottom="2dp"
+                    android:background="#D3D3D3"
+                    android:minEms="2"
+                    android:textSize="@dimen/fraction_nom_size"
+                    android:textStyle="bold"
+                    tools:text="2" />
+
+                <View
+                    android:layout_width="@dimen/fraction_separator_width"
+                    android:layout_height="@dimen/fraction_separator_height"
+                    android:layout_gravity="center"
+                    android:background="@android:color/black" />
+
+                <TextView
+                    android:id="@+id/fractionCorrectAnswerDenominatorID"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+
+                    android:layout_marginTop="2dp"
+                    android:background="#D3D3D3"
+                    android:minEms="2"
+                    android:textSize="@dimen/fraction_nom_size"
+                    android:textStyle="bold"
+                    tools:text="3" />
+            </LinearLayout>
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+
+</LinearLayout>

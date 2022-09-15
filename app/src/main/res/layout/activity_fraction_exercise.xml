@@ -1,0 +1,246 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:orientation="vertical"
+    tools:context=".FractionExerciseActivity">
+    <include layout="@layout/activity_timer_layout"
+        android:id="@+id/timerLayout"
+        android:visibility="gone"/>
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_horizontal"
+        android:orientation="horizontal">
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="3"
+            android:gravity="center"
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/fractionFirstIntID"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:paddingEnd="5dp"
+                android:textSize="@dimen/fraction_int_size"
+                android:textStyle="bold"
+                tools:text="1" />
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <TextView
+                    android:id="@+id/fractionFirstNominatorID"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:textSize="@dimen/fraction_nom_size"
+                    android:textStyle="bold"
+                    tools:text="2" />
+
+                <View
+                    android:layout_width="@dimen/fraction_separator_width"
+                    android:layout_height="@dimen/fraction_separator_height"
+                    android:layout_gravity="center"
+                    android:background="@android:color/darker_gray" />
+
+                <TextView
+                    android:id="@+id/fractionFirstDenominatorID"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:textSize="@dimen/fraction_nom_size"
+                    android:textStyle="bold"
+                    tools:text="13" />
+            </LinearLayout>
+        </LinearLayout>
+
+        <TextView
+            android:id="@+id/fractionOperatorID"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_weight="1"
+            android:textAlignment="center"
+            android:textSize="34sp"
+            android:textStyle="bold"
+            tools:text="+" />
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="3"
+            android:gravity="center"
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/fractionSecondIntID"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:paddingEnd="5dp"
+                android:textSize="@dimen/fraction_int_size"
+                android:textStyle="bold"
+                tools:text="2" />
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <TextView
+                    android:id="@+id/fractionSecondNominatorID"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:textSize="@dimen/fraction_nom_size"
+                    android:textStyle="bold"
+                    tools:text="3" />
+
+                <View
+                    android:layout_width="@dimen/fraction_separator_width"
+                    android:layout_height="@dimen/fraction_separator_height"
+                    android:layout_gravity="center"
+                    android:background="@android:color/darker_gray" />
+
+                <TextView
+                    android:id="@+id/fractionSecondDenominatorID"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:textSize="@dimen/fraction_nom_size"
+                    android:textStyle="bold"
+                    tools:text="4" />
+            </LinearLayout>
+
+        </LinearLayout>
+
+        <TextView
+            android:id="@+id/fractionEqualID"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="left|center_vertical"
+            android:layout_weight="1"
+            android:text="="
+            android:textSize="34sp"
+            android:textStyle="bold" />
+    </LinearLayout>
+    <include
+        android:id="@+id/resultFractionLayout"
+        layout="@layout/activity_fraction_result_layout"
+        android:visibility="gone" />
+
+
+    <LinearLayout
+        android:id="@+id/exerciseFractionsLayout"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center_horizontal"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:layout_marginBottom="20dp"
+            android:gravity="center"
+            android:orientation="horizontal">
+
+            <EditText
+                android:id="@+id/fractionAnswerIntID"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginEnd="2dp"
+                android:background="#D3D3D3"
+                android:minEms="1"
+                android:paddingEnd="3dp"
+                android:textSize="@dimen/fraction_int_size"
+                android:textStyle="bold"
+                tools:text="1" />
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <EditText
+                    android:id="@+id/fractionAnswerNominatorID"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+
+                    android:layout_marginBottom="2dp"
+                    android:background="#D3D3D3"
+                    android:minEms="2"
+                    android:textSize="@dimen/fraction_nom_size"
+                    android:textStyle="bold"
+                    tools:text="2" />
+
+                <View
+                    android:layout_width="@dimen/fraction_separator_width"
+                    android:layout_height="@dimen/fraction_separator_height"
+                    android:layout_gravity="center"
+                    android:background="@android:color/black" />
+
+                <EditText
+                    android:id="@+id/fractionAnswerDenominatorID"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+
+                    android:layout_marginTop="2dp"
+                    android:background="#D3D3D3"
+                    android:minEms="2"
+                    android:textSize="@dimen/fraction_nom_size"
+                    android:textStyle="bold"
+                    tools:text="3" />
+            </LinearLayout>
+
+        </LinearLayout>
+
+        <Button
+            android:id="@+id/answerButtonID"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="15dp"
+
+            android:text="Answer"
+            android:textAllCaps="false"
+
+            />
+
+        <Button
+            android:id="@+id/finishButtonID"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="15dp"
+            android:text="Finish"
+            android:textAllCaps="false" />
+
+        <Button
+            android:id="@+id/drawButtonFID"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="15dp"
+            android:text="DRAW" />
+        <Button
+            android:id="@+id/learnFractionButtonID"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="15dp"
+            android:text="LEARN" />
+
+    </LinearLayout>
+
+
+</LinearLayout>
+

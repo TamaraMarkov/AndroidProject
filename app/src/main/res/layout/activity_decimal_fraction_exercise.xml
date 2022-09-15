@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_gravity="center"
+    android:gravity="center"
+    android:orientation="vertical"
+    android:textAlignment="center"
+    tools:context=".DecimalFractionExerciseActivity">
+
+    <include
+        android:id="@+id/timerLayout"
+        layout="@layout/activity_timer_layout"
+        android:visibility="gone" />
+
+    <TextView
+        android:id="@+id/exerciseDecimalID"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="30dp"
+        android:text="TextView"
+        android:textAlignment="center"
+        android:textSize="34sp"
+        android:textStyle="bold" />
+
+    <include
+        android:id="@+id/resultLayout"
+        layout="@layout/activity_result_layout"
+        android:visibility="gone" />
+
+    <LinearLayout
+        android:id="@+id/exerciseLayout"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center_horizontal"
+        android:orientation="vertical">
+
+
+        <RadioGroup
+            android:id="@+id/radioAnswer"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="30dp">
+
+            <RadioButton
+                android:id="@+id/rightID"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+
+
+                android:text="RIGHT"
+                android:textSize="25dp"
+                android:textStyle="bold" />
+
+            <RadioButton
+                android:id="@+id/wrongID"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                android:text="WRONG"
+                android:textSize="25dp"
+                android:textStyle="bold" />
+
+        </RadioGroup>
+
+
+        <Button
+            android:id="@+id/answerButtonID2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="15dp"
+            android:layout_marginBottom="328dp"
+            android:text="Answer"
+            android:textAllCaps="false" />
+
+        <Button
+            android:id="@+id/learnDecimalButtonID"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="15dp"
+            android:layout_marginBottom="328dp"
+            android:text="Learn"
+            android:textAllCaps="false" />
+
+
+        <Button
+            android:id="@+id/finishButtonID2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="15dp"
+            android:layout_marginBottom="208dp"
+            android:text="Finish"
+            android:textAllCaps="false" />
+
+    </LinearLayout>
+</LinearLayout>

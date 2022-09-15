@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.mathematics">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.Mathematics">
+        <activity
+            android:name=".LearnListActivity"
+            android:exported="false"
+            android:label="@string/title_activity_learn_list"
+            android:theme="@style/Theme.Mathematics.NoActionBar" />
+        <activity
+            android:name=".ChooseAvatarActivity"
+            android:exported="false" />
+        <activity
+            android:name=".ExamSummaryActivity"
+            android:exported="false" />
+        <activity
+            android:name=".DrawFractionActivity"
+            android:exported="false" /> <!-- <activity -->
+        <!-- android:name=".FractionAdvancedExercise" -->
+        <!-- android:exported="false" /> -->
+        <!-- <activity -->
+        <!-- android:name=".NumbersAdvancedExercise" -->
+        <!-- android:exported="false" /> -->
+        <activity
+            android:name=".DrawActivity"
+            android:exported="false" />
+        <activity
+            android:name=".SimpleNumbersExerciseActivity"
+            android:exported="false" />
+        <activity
+            android:name=".EditQuestionsActivity"
+            android:exported="false" />
+        <activity
+            android:name=".AddNewQuestionActivity"
+            android:exported="false" />
+        <activity
+            android:name=".DecimalFractionExerciseActivity"
+            android:exported="false" />
+        <activity
+            android:name=".GameActivity"
+            android:exported="true" />
+        <activity
+            android:name=".SignUpActivity"
+            android:exported="true" />
+        <activity
+            android:name=".FractionExerciseActivity"
+            android:exported="true" />
+        <activity
+            android:name=".MainActivity"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>

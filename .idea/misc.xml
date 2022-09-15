@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/Users/User/OneDrive/Desktop/computer_science/project/Mathematics/app/src/main/res/drawable-v24/ic_launcher_foreground.xml" value="0.116" />
+        <entry key="..\:/Users/User/OneDrive/Desktop/computer_science/project/Mathematics/app/src/main/res/drawable/ic_baseline_check_24.xml" value="0.116" />
+        <entry key="..\:/Users/User/OneDrive/Desktop/computer_science/project/Mathematics/app/src/main/res/drawable/ic_launcher_background.xml" value="0.116" />
+        <entry key="..\:/Users/User/OneDrive/Desktop/computer_science/project/Mathematics/app/src/main/res/drawable/layout_border.xml" value="0.116" />
+        <entry key="..\:/Users/User/OneDrive/Desktop/computer_science/project/Mathematics/app/src/main/res/drawable/my_border.xml" value="0.1025" />
+        <entry key="..\:/Users/User/OneDrive/Desktop/computer_science/project/Mathematics/app/src/main/res/layout/activity_add_new_question.xml" value="0.22" />
+        <entry key="..\:/Users/User/OneDrive/Desktop/computer_science/project/Mathematics/app/src/main/res/layout/activity_add_new_question2.xml" value="0.18885869565217392" />
+        <entry key="..\:/Users/User/OneDrive/Desktop/computer_science/project/Mathematics/app/src/main/res/layout/activity_answer_card_layout.xml" value="0.18885869565217392" />
+        <entry key="..\:/Users/User/OneDrive/Desktop/computer_science/project/Mathematics/app/src/main/res/layout/activity_choose_avatar.xml" value="0.1" />
+        <entry key="..\:/Users/User/OneDrive/Desktop/computer_science/project/Mathematics/app/src/main/res/layout/activity_decimal_fraction_advanced_exercise.xml" value="0.18885869565217392" />
+        <entry key="..\:/Users/User/OneDrive/Desktop/computer_science/project/Mathematics/app/src/main/res/layout/activity_decimal_fraction_exercise.xml" value="0.20416666666666666" />
+        <entry key="..\:/Users/User/OneDrive/Desktop/computer_science/project/Mathematics/app/src/main/res/layout/activity_draw.xml" value="0.1" />
+        <entry key="..\:/Users/User/OneDrive/Desktop/computer_science/project/Mathematics/app/src/main/res/layout/activity_draw_fraction.xml" value="0.18" />
+        <entry key="..\:/Users/User/OneDrive/Desktop/computer_science/project/Mathematics/app/src/main/res/layout/activity_edit_questions.xml" value="0.16485507246376813" />
+        <entry key="..\:/Users/User/OneDrive/Desktop/computer_science/project/Mathematics/app/src/main/res/layout/activity_exam_summary.xml" value="0.18885869565217392" />
+        <entry key="..\:/Users/User/OneDrive/Desktop/computer_science/project/Mathematics/app/src/main/res/layout/activity_fraction_advanced_exercise.xml" value="0.19067028985507245" />
+        <entry key="..\:/Users/User/OneDrive/Desktop/computer_science/project/Mathematics/app/src/main/res/layout/activity_fraction_exercise.xml" value="0.18854166666666666" />
+        <entry key="..\:/Users/User/OneDrive/Desktop/computer_science/project/Mathematics/app/src/main/res/layout/activity_fraction_result_layout.xml" value="0.14" />
+        <entry key="..\:/Users/User/OneDrive/Desktop/computer_science/project/Mathematics/app/src/main/res/layout/activity_game.xml" value="0.2" />
+        <entry key="..\:/Users/User/OneDrive/Desktop/computer_science/project/Mathematics/app/src/main/res/layout/activity_game2.xml" value="0.18885869565217392" />
+        <entry key="..\:/Users/User/OneDrive/Desktop/computer_science/project/Mathematics/app/src/main/res/layout/activity_learn_card_layout.xml" value="0.18885869565217392" />
+        <entry key="..\:/Users/User/OneDrive/Desktop/computer_science/project/Mathematics/app/src/main/res/layout/activity_learn_list.xml" value="0.18885869565217392" />
+        <entry key="..\:/Users/User/OneDrive/Desktop/computer_science/project/Mathematics/app/src/main/res/layout/activity_main.xml" value="0.18" />
+        <entry key="..\:/Users/User/OneDrive/Desktop/computer_science/project/Mathematics/app/src/main/res/layout/activity_numbers_advanced_exercise.xml" value="0.21" />
+        <entry key="..\:/Users/User/OneDrive/Desktop/computer_science/project/Mathematics/app/src/main/res/layout/activity_result_layout.xml" value="0.18885869565217392" />
+        <entry key="..\:/Users/User/OneDrive/Desktop/computer_science/project/Mathematics/app/src/main/res/layout/activity_sign_up.xml" value="0.14583333333333334" />
+        <entry key="..\:/Users/User/OneDrive/Desktop/computer_science/project/Mathematics/app/src/main/res/layout/activity_sign_up2.xml" value="0.14" />
+        <entry key="..\:/Users/User/OneDrive/Desktop/computer_science/project/Mathematics/app/src/main/res/layout/activity_simple_numbers_exercise.xml" value="0.20416666666666666" />
+        <entry key="..\:/Users/User/OneDrive/Desktop/computer_science/project/Mathematics/app/src/main/res/layout/activity_timer_layout.xml" value="0.18885869565217392" />
+        <entry key="..\:/Users/User/OneDrive/Desktop/computer_science/project/Mathematics/app/src/main/res/layout/card.xml" value="0.18885869565217392" />
+        <entry key="..\:/Users/User/OneDrive/Desktop/computer_science/project/Mathematics/app/src/main/res/layout/card_layout.xml" value="0.17647058823529413" />
+        <entry key="..\:/Users/User/OneDrive/Desktop/computer_science/project/Mathematics/app/src/main/res/layout/content_learn_list.xml" value="0.1" />
+        <entry key="..\:/Users/User/OneDrive/Desktop/computer_science/project/Mathematics/app/src/main/res/layout/fragment_first.xml" value="0.18885869565217392" />
+        <entry key="..\:/Users/User/OneDrive/Desktop/computer_science/project/Mathematics/app/src/main/res/layout/fragment_second.xml" value="0.18885869565217392" />
+        <entry key="..\:/Users/User/OneDrive/Desktop/computer_science/project/Mathematics/app/src/main/res/menu/main_menu.xml" value="0.20416666666666666" />
+        <entry key="..\:/Zvika/Work/LeaBrodeski/Android/Mathematics/app/src/main/res/drawable/layout_border.xml" value="0.145" />
+        <entry key="..\:/Zvika/Work/LeaBrodeski/Android/Mathematics/app/src/main/res/drawable/my_border.xml" value="0.145" />
+        <entry key="..\:/Zvika/Work/LeaBrodeski/Android/Mathematics/app/src/main/res/layout/activity_add_new_question.xml" value="0.2" />
+        <entry key="..\:/Zvika/Work/LeaBrodeski/Android/Mathematics/app/src/main/res/layout/activity_decimal_fraction_exercise.xml" value="0.2" />
+        <entry key="..\:/Zvika/Work/LeaBrodeski/Android/Mathematics/app/src/main/res/layout/activity_edit_questions.xml" value="0.2" />
+        <entry key="..\:/Zvika/Work/LeaBrodeski/Android/Mathematics/app/src/main/res/layout/activity_fraction_exercise.xml" value="0.268" />
+        <entry key="..\:/Zvika/Work/LeaBrodeski/Android/Mathematics/app/src/main/res/layout/activity_game.xml" value="0.268" />
+        <entry key="..\:/Zvika/Work/LeaBrodeski/Android/Mathematics/app/src/main/res/layout/activity_main.xml" value="0.268" />
+        <entry key="..\:/Zvika/Work/LeaBrodeski/Android/Mathematics/app/src/main/res/layout/activity_sign_up.xml" value="0.3" />
+        <entry key="..\:/Zvika/Work/LeaBrodeski/Android/Mathematics/app/src/main/res/layout/toobar.xml" value="0.1" />
+        <entry key="..\:/Zvika/Work/LeaBrodeski/Android/Mathematics/app/src/main/res/menu/main_menu.xml" value="0.15925925925925927" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="Android Studio default JDK" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>

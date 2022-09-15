@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="fraction_int_size">50sp</dimen>
+    <dimen name="fraction_nom_size">30sp</dimen>
+
+    <dimen name="fraction_separator_width">40dp</dimen>
+    <dimen name="fraction_separator_height">2dp</dimen>
+
+</resources>
